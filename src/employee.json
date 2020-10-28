@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "name": "SpongeBob",
+      "image":
+        "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+      "phone": "1234567890",
+      "email": "gary@sluggy.com",
+      "dob": "10/20/01"
+    },
+    {
+      "id": 2,
+      "name": "Mr. Krabs",
+      "image":
+        "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+      "phone": "1234567890",
+      "email": "krustyk@shell.com",
+      "dob": "10/06/85"
+    },
+    {
+      "id": 3,
+      "name": "Squidward",
+      "image":
+        "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+      "phone": "0002134620",
+      "email": "saxplayer123@saxxy.com",
+      "dob": "05/07/95"
+    }
+  ]
