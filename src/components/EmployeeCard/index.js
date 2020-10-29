@@ -6,19 +6,16 @@ import "./style.css";
 function EmployeeCard(props) {
   return (
     <>
-    <tbody>
-    <br/>
-    <tr>
-      
-    <th scope="row"><img src={props.image}></img></th>
+    
+    <tr scope="row">
+          <td >
+          <img src={props.image}></img></td>
           <td >{props.name}</td>
           <td >{props.phone}</td>
           <td >{props.email}</td>
           <td >{props.dob}</td>
-          
     </tr>
-    <br/>
-    </tbody>
+    
     </>
   );
 }
