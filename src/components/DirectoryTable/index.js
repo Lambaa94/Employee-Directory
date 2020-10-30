@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table } from 'reactstrap';
+import { Table, Row, Col, Container } from 'reactstrap';
 import EmployeeCard from "../EmployeeCard";
 import employee from "../../employee.json";
 import SearchBar from '../SearchBar';
@@ -8,17 +8,24 @@ import "./style.css";
 
 
 const styles = {
+   main: { paddingRight: 50,
+    paddingTop: 50,
+    paddingLeft: 50,
+    margin: 20,
+    paddingBottom: 40,
+   },
+   button: {
     paddingRight: 50,
     paddingTop: 50,
     paddingLeft: 50,
     margin: 20,
     paddingBottom: 40,
-   
+    border: "black",
+    backgroundColor: "lavender",
+    fontWeight: "bold"
+   }
 };
 
-
-
-var sortOrder = "ASC"
 
 class DirectoryTable extends Component{
 state = {
@@ -27,16 +34,27 @@ state = {
   search: ""
 }
 handleClick = () => {
-  this.setState({ employee: this.state.employee.sort()})
-    
+  
+  
+    let sortedEmp = this.state.employee.sort((a,b) => {
+      if(a.name > b.name){
+        return 1
+      } else { return -1
+      }
+    })
+    if(this.state.sortOrder === "ASC"){
+      this.setState({
+        sortOrder : "DSC",
+        employee: sortedEmp
+      });
+  
+    } else {
+      this.setState({
+        sortOrder : "ASC",
+        employee: sortedEmp.reverse()
+      });
      
-  if(sortOrder === "ASC"){
-    sortOrder = false;
-
-  } else {
-    sortOrder = true;
-  employee.reverse();
-  }
+    }
   
 }
 
@@ -46,12 +64,13 @@ event.preventDefault();
 
 const { value, name } = event.target
 
-  
-const filteredEmployees = this.state.employee.filter(emp => emp.includes(this.state.search))
-// search with filter?
+
+const filteredEmployees = employee.filter(emp => emp.name.indexOf(value) > -1)
+
 
 this.setState (
-{ [name]: value }
+{ [name]: value,
+employee: filteredEmployees }
 
     
 );
@@ -60,23 +79,31 @@ this.setState (
 
 render() {
 return (
-   <>                         {/* on change or handleInputChange? */}
-   <SearchBar name="search" onChange={this.handleInputChange} value={this.state.search} />
-    <Table hover style={styles}>
+   <>
+  
+   <Container>   
+                
+   <SearchBar styles={{verticalAlign: "middle"}}name="search" handleInputChange={this.handleInputChange} value={this.state.search}/>
+   
+   
+    <Table hover={true} style={styles.main}>
     
-      <thead style={styles}>
-        <tr style={styles}>
-          <th style={styles}>Image</th>
-          <th style={styles} onClick={() => this.handleClick()}>Name</th>
-          <th style={styles}>Phone</th>
-          <th style={styles}>Email</th>
-          <th style={styles}>DOB</th>
+      <thead style={styles.main}>
+        <tr style={styles.main}>
+          <th style={styles.main}>Image</th>
+          <button style={styles.button} onClick={() => this.handleClick()}>Name</button>
+          <th style={styles.main}>Phone</th>
+          <th style={styles.main}>Email</th>
+          <th style={styles.main}>DOB</th>
         </tr>
       </thead>
-      <tbody>
-      {this.state.employee.map(employee => <EmployeeCard key={employee.id} id={employee.id} name={employee.name} phone={employee.phone} image={employee.image} email={employee.email} dob={employee.dob}/> )}
+      <tbody >
+      {this.state.employee.map(employee => <EmployeeCard key={employee.id} id={employee.id} name={employee.name} phone={employee.phone} image={employee.image} email={employee.email} dob={employee.dob} />  )}
       </tbody>
+    
     </Table>
+    
+    </Container>  
   </>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormGroup, Input } from 'reactstrap';
+import { Form, Input } from 'reactstrap';
 import "./style.css";
 
 
@@ -7,9 +7,11 @@ import "./style.css";
 
 function SearchBar(props) {
  return (
+     
+    
         <Form>
-            <FormGroup>
-                <Input
+            
+                <Input 
                     onChange={props.handleInputChange}
                     value={props.search}
                     type="search"
@@ -17,8 +19,9 @@ function SearchBar(props) {
                     id="searchFilter"
                     placeholder="Search Employee"
                 />
-            </FormGroup>
+            
         </Form>
+      
     );
 
 }
