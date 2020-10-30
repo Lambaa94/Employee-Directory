@@ -83,7 +83,7 @@ return (
   
    <Container>   
                 
-   <SearchBar styles={{verticalAlign: "middle"}}name="search" handleInputChange={this.handleInputChange} value={this.state.search}/>
+   <SearchBar name="search" handleInputChange={this.handleInputChange} value={this.state.search}/>
    
    
     <Table hover={true} style={styles.main}>
