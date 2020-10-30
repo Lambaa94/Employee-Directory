@@ -1,101 +1,143 @@
 [
     {
       "id": 1,
-      "name": "SpongeBob",
+      "name": "SpongeBob SquarePants",
       "image":
         "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-      "phone": "1234567890",
+      "phone": "888-346-0966",
       "email": "gary@sluggy.com",
-      "dob": "10/20/01"
+      "dob": "10/20/00"
     },
     {
       "id": 2,
-      "name": "Mr. Krabs",
+      "name": "Eugene H. Krabs",
       "image":
         "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-      "phone": "1234567890",
+      "phone": "888-321-6555",
       "email": "krustyk@shell.com",
-      "dob": "10/06/85"
+      "dob": "11/30/1942"
     },
     {
       "id": 3,
-      "name": "Squidward",
+      "name": "Squidward Tentacles",
       "image":
         "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-      "phone": "0002134620",
+      "phone": "888-654-6663",
       "email": "saxplayer123@saxxy.com",
-      "dob": "05/07/95"
+      "dob": "10/10/1972"
     },
     {
       "id": 4,
       "name": "Dexter",
       "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-      "phone": "Boy Genius",
-      "email": "A Secret Laboratory",
-      "dob": ""
+      "phone": "654-896-3524",
+      "email": "secretlaboratory@hotmail.com",
+      "dob": "02/26/1995"
     },
     {
       "id": 5,
-      "name": "Courage",
+      "name": "Courage Bagge",
       "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-      "phone": "A Cowardly Dog",
-      "email": "Nowhere, Kansas",
-      "dob": ""
+      "phone": "121-666-0002",
+      "email": "murielisthebest@aol.com",
+      "dob": "11/12/1999"
     },
     {
       "id": 6,
       "name": "Doug Funnie",
       "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-      "phone": "Student",
-      "email": "Bluffington",
-      "dob": ""
+      "phone": "885-132-6654",
+      "email": "dougiedoug@aol.com",
+      "dob": "08/11/1991"
     },
     {
       "id": 7,
       "name": "Bugs Bunny",
       "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-      "phone": "Looney Toon",
-      "email": "A Rabbit Burrow",
-      "dob": ""
+      "phone": "363-323-3232",
+      "email": "thewildhare@mouse.com",
+      "dob": "07/28/1940"
     },
     {
       "id": 8,
       "name": "Johnny Bravo",
       "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-      "phone": "Ladies Man",
-      "email": "Aron City",
-      "dob": ""
+      "phone": "696-456-5566",
+      "email": "ladiesman@gmail.com",
+      "dob": "07/14/1997"
     },
     {
       "id": 9,
       "name": "Tommy Pickles",
       "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-      "phone": "Adventurer",
-      "email": "California",
-      "dob": ""
+      "phone": "111-222-3333",
+      "email": "caliboy@aol.com",
+      "dob": "08/11/1991"
     },
     {
       "id": 10,
-      "name": "Rocko",
+      "name": "Rocko Rama",
       "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-      "phone": "Cashier",
-      "email": "O-Town, California",
-      "dob": ""
+      "phone": "111-458-9898",
+      "email": "moderncali@aol.com",
+      "dob": "09/18/1993"
     },
     {
       "id": 11,
       "name": "Captain Planet",
       "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-      "phone": "Superhero",
-      "email": "Earth",
-      "dob": ""
+      "phone": "000-000-0000",
+      "email": "saveearth@gmail.com",
+      "dob": "09/15/1990"
     },
     {
       "id": 12,
-      "name": "Ickis",
+      "name": "Ickis Csupo",
       "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-      "phone": "Ahhhh! A Real Monster!",
-      "email": "Under a City Dump",
-      "dob": ""
+      "phone": "621-123-5649",
+      "email": "thecitydump@aol.com",
+      "dob": "11/11/1995"
+    },
+    {
+      "id": 13,
+      "name": "Popeye",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/00/Popeye_the_Sailor.png",
+      "phone": "654-789-6545",
+      "email": "spinacheater@aol.com",
+      "dob": "01/17/1929"
+    },
+    {
+      "id": 14,
+      "name": "Wile E. Coyote",
+      "image": "https://i.pinimg.com/originals/18/d5/b4/18d5b43a8ccf0363f35827cdf7070e3a.jpg",
+      "phone": "946-789-6546",
+      "email": "speeddevil@hotmail.com",
+      "dob": "01/23/1949"
+    },
+    {
+      "id": 15,
+      "name": "Donald Duck",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Donald_Duck.svg/800px-Donald_Duck.png",
+      "phone": "321-456-9896",
+      "email": "sailorduck@hotmail.com",
+      "dob": "05/12/1934"
+    },
+    {
+      "id": 16,
+      "name": "Mickey Mouse",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Mickey_Mouse.png",
+      "phone": "885-185-5649",
+      "email": "mickeythemouse@hotmail.com",
+      "dob": "07/12/1928"
+    },
+    {
+      "id": 17,
+      "name": "Goofy Dawg",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Goofy.svg/1024px-Goofy.svg.png",
+      "phone": "333-156-9875",
+      "email": "dippydawg@hotmail.com",
+      "dob": "04/02/1932"
     }
+
+    
   ]

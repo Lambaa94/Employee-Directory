@@ -1,39 +1,26 @@
-import React, { Component } from 'react';
-import { Form, FormGroup, Button, Input } from 'reactstrap';
+import React from 'react';
+import { Form, FormGroup, Input } from 'reactstrap';
+import "./style.css";
 
 
 
 
-
-class SearchBar extends Component {
-    
-    handleInputChange = event => {
-       event.preventDefault();
-       
-       const { value, name } = event.target
-    
-     this.setState(
-         { [name]: value }
-         
+function SearchBar(props) {
+ return (
+        <Form>
+            <FormGroup>
+                <Input
+                    onChange={props.handleInputChange}
+                    value={props.search}
+                    type="search"
+                    name="search"
+                    id="searchFilter"
+                    placeholder="Search Employee"
+                />
+            </FormGroup>
+        </Form>
     );
-};
-    
-    
-    render() {
-        return (
-            <Form>
-                <FormGroup>
-                    <Input
-                        type="search"
-                        name="search"
-                        id="searchFilter"
-                        placeholder="Search Employee"
-                    />
-                    <Button>Search</Button>
-                </FormGroup>
-            </Form>
-        );
-    }
+
 }
 
 
