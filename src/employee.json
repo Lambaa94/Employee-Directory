@@ -161,8 +161,49 @@
       "phone": "222-626-4133",
       "email": "snoop@doghouse.com",
       "dob": "05/30/1948"
+    },
+    {
+      "id": 21,
+      "name": "Minnie Mouse",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Minnie_Mouse.png",
+      "phone": "885-569-6594",
+      "email": "minniethemouse@hotmail.com",
+      "dob": "10/18/1928"
+    },
+    {
+      "id": 22,
+      "name": "Felix Cat",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/1280px-Felix_the_cat.svg.png",
+      "phone": "182-846-9876",
+      "email": "cattythefelix@hotmail.com",
+      "dob": "10/16/1919"
+    },
+    {
+      "id": 23,
+      "name": "Velma Dinkley",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/Velma_Dinkley.png",
+      "phone": "953-555-1111",
+      "email": "groovy@mystery.com",
+      "dob": "12/12/1969"
+    },
+    {
+      "id": 24,
+      "name": "Hank Hill",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Hank_Hill.png",
+      "phone": "302-468-9875",
+      "email": "kinghank@aol.com",
+      "dob": "04/19/1953"
+    },
+    {
+      "id": 25,
+      "name": "Butt Head",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/71/Butt-head_BevisandButtHead.png",
+      "phone": "655-696-6969",
+      "email": "headofbutt@aol.com",
+      "dob": "10/29/1992"
     }
     
 
-    
   ]
+
+  
