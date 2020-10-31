@@ -137,7 +137,32 @@
       "phone": "333-156-9875",
       "email": "dippydawg@hotmail.com",
       "dob": "04/02/1932"
+    },
+    {
+      "id": 18,
+      "name": "Homer Simpson",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png",
+      "phone": "656-489-6549",
+      "email": "donut@beer.com",
+      "dob": "04/09/1987"
+    },
+    {
+      "id": 19,
+      "name": "Daffy Duck",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Daffy_Duck.svg/1280px-Daffy_Duck.svg.png",
+      "phone": "832-984-3213",
+      "email": "daf@ducky.com",
+      "dob": "04/17/1937"
+    },
+    {
+      "id": 20,
+      "name": "Charlie Brown",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Charlie_Brown.png",
+      "phone": "222-626-4133",
+      "email": "snoop@doghouse.com",
+      "dob": "05/30/1948"
     }
+    
 
     
   ]

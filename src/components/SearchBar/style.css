@@ -5,13 +5,10 @@ border: darkblue;
 }
 
 input {
-    
     margin: auto;
     width: 100%;
- 
   padding: 10px;
 }
-
 
 input:hover {
         color: rgb(28, 28, 194);

@@ -58,11 +58,36 @@ handleClick = () => {
   
 }
 
+
+handleEmailClick = () => {
+  
+  let sortedEmp = this.state.employee.sort((a,b) => {
+    if(a.email > b.email){
+      return 1
+    } else { return -1
+    }
+  })
+  if(this.state.sortOrder === "ASC"){
+    this.setState({
+      sortOrder : "DSC",
+      employee: sortedEmp
+    });
+
+  } else {
+    this.setState({
+      sortOrder : "ASC",
+      employee: sortedEmp.reverse()
+    });
+   
+  }
+} 
+
 handleInputChange = event => {
 event.preventDefault();
   
 
 const { value, name } = event.target
+
 
 
 const filteredEmployees = employee.filter(emp => emp.name.indexOf(value) > -1)
@@ -85,7 +110,7 @@ return (
                 
    <SearchBar name="search" handleInputChange={this.handleInputChange} value={this.state.search}/>
    
-   
+
     <Table hover={true} style={styles.main}>
     
       <thead style={styles.main}>
@@ -93,7 +118,7 @@ return (
           <th style={styles.main}>Image</th>
           <button style={styles.button} onClick={() => this.handleClick()}>Name</button>
           <th style={styles.main}>Phone</th>
-          <th style={styles.main}>Email</th>
+          <button style={styles.button} onClick={() => this.handleEmailClick()}>Email</button>
           <th style={styles.main}>DOB</th>
         </tr>
       </thead>
