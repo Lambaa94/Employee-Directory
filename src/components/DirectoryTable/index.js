@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table, Row, Col, Container } from 'reactstrap';
+import { Table, Container } from 'reactstrap';
 import EmployeeCard from "../EmployeeCard";
 import employee from "../../employee.json";
 import SearchBar from '../SearchBar';
