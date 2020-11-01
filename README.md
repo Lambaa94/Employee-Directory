@@ -22,7 +22,7 @@ This project allowed me to get a good base understanding of React. What this app
 
 *Below is a link to the deployed application.*
 
-**
+*https://lambaa94.github.io/Employee-Directory/*
 
 ## Installation
 
